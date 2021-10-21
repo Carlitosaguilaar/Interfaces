@@ -1,0 +1,26 @@
+body{
+    background: #F2F2F2;
+
+}
+
+.Carrusel{
+    background-color: #BFBFBF;
+    height: 350px;
+    width: auto;
+    text-align: center;
+}
+.imagenes{
+    height: 350px;
+    width: 500px;
+}
+
+footer{
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+.cajitas {
+    float: left;
+    width: 33.3%;
+    padding:10px;
+  }
