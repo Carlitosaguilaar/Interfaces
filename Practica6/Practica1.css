@@ -1,0 +1,19 @@
+div{
+    margin-top: 25px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-color: red;
+
+    border: 5px solid black;
+    
+}
+p{
+
+    margin-left: 5%;
+}
+h2{
+    margin-left: 5%;
+}
