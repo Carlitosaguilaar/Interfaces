@@ -1,0 +1,27 @@
+.tabla{
+    border: 5;
+    border-color: black solid ;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+}
+
+.textos{
+    background-color: black;
+    color: white;
+}
+
+.imagenes{
+    background-color: rgb(33, 33, 240);
+    color: black;
+    opacity: 0.8;
+}
+
+p{
+    font-size: large;
+}
