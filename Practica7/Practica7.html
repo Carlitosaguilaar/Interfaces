@@ -10,11 +10,14 @@
 </head>
 <body>
 
-    <nav>
-        <ul class="Menu">
-            <li class="Cajita">Inicio</li>
-            <li class="Cajita">Contacto</li>
-        </ul>
+    <nav class="Menu">
+        <div class="Contenedor">
+            <ul class="">
+                <li class="Cajita"> INICIO </li>
+                <li class="Cajita"> CONTACTO </li>
+            </ul>
+        </div>
+        
         
     </nav>
 
@@ -36,6 +39,16 @@
       </div>
 
 
+    <div class="">
+
+        <a href="">Sobre mi</a>
+        <a href="">Competencias</a>
+        <a href="">Proyectos</a>
+        <a href="">Contacta conmigo</a>
+
+    </div>
+
+      <!-- 
     <div>
         <div class="cajitas">Java</div>
         <div class="cajitas">JavaScript</div>
@@ -45,8 +58,34 @@
 
     <h4>Mis proyectos</h4>
 
-
+ -->
     <footer>
+
+        <div class="formulario_contacto">
+            <form action="" class="formulario_contacto" >
+                <h2 class="formulario_titulo">¿Quiere contactar conmigo? No tenga miedo!</h2>
+                <h4 class="formulario_titulo">Rellene el formulario y le responderé a la mayor brevedad</h4>
+                <div class="formulario_campo">
+                    <p>Nombre <input type="text" name="nombre" class="inputs" placeholder="Nombre" autocomplete="off"></p>
+                     
+                </div>
+
+                <div class="formulario_campo">
+                     <p>E-mail <input type="email" name="correo" class="inputs" placeholder="E-mail" autocomplete="off"></p> 
+                </div>
+
+                <div class="formulario_campo">
+                    <p>Asunto <input type="text" name="asunto" class="inputs" placeholder="Asunto" autocomplete="off"></p>   
+                </div>
+
+                <div class="formulario_campo">
+                    <p>Mensaje  <textarea name="texto" placeholder="Introduce el mensaje" autocomplete="off" cols="50" rows="5"></textarea></p>
+                </div>
+
+                <div class="formulario_campo">
+                    <input type="button" value="Enviar">
+                </div>
+        </div>
 
     </footer>
 

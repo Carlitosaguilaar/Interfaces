@@ -1,5 +1,5 @@
 body{
-    background: #F2F2F2;
+    background: #f2f2f2;
 
 }
 
@@ -14,13 +14,67 @@ body{
     width: 500px;
 }
 
-footer{
-    background-color: black;
-    height: auto;
-    width: auto;
-}
 .cajitas {
     float: left;
     width: 33.3%;
     padding:10px;
+}
+
+.Menu {
+    overflow: auto;
+}
+
+.Contenedor {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
   }
+  .Cajita{
+      background-color: #FFE601;
+      width: 5%;
+      height: 5%;
+      text-align: center;
+      margin-left: 50px;
+      color: black;
+    }
+    
+.Menu .logo{
+    float: left;
+    padding-top: 20px;
+}
+
+.Menu ul{
+    list-style: none;
+    float: right;
+}
+
+.Menu ul li {
+    float: left;
+}
+
+.Menu ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.Menu ul li a:hover,
+.Menu ul li a.current {
+    background: var(--main-color);
+    color: #707070;
+}
+footer{
+    background-color: #FFE601;
+}
+.inputs{
+    width: 20%;
+    height: 10%;
+}
+
+.formulario_titulo{
+    text-align: center;
+}
+.formulario_campo{
+    text-align: center;
+}
