@@ -1,42 +1,54 @@
 body{
     background: #f2f2f2;
-
 }
 
-.Carrusel{
+.Proyectos{
     background-color: #BFBFBF;
-    height: 350px;
-    width: auto;
-    text-align: center;
+    height: 3200px;
+    width: 100%
+}
+.Proyectos div{
+    justify-content: space-evenly;
+    padding-left: 5%;
 }
 .imagenes{
-    height: 350px;
-    width: 500px;
+    height: 200px;
+    width: 300px;
 }
 
 .cajitas {
     float: left;
     width: 33.3%;
-    padding:10px;
+    padding: 10px;
 }
 
 .Menu {
     width: 100%;
 }
 
+.menu{
+    padding-top: 5%;
+    background-color: white;
+}
+.menu_principal{
+    width: auto;
+    justify-content: space-evenly;
+}
+.menu_texto{
+    color: black;
+}
+
 .Contenedor {
-    margin: auto;
-    max-width: 100%;
-    overflow: auto;
-    padding: 0 20px;
-  }
-  .CajitaMenu{
-      background-color: #FFE601;
-      width: 50%;
-      height: 50%;
-      text-align: center;
-      margin-left: 50px;
-      color: black;
+    padding:20px;
+    background-color: black;
+}
+
+.CajitaMenu{
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    margin-left: 1500px;
+    color: white;
     }
     
 .Menu .logo{
@@ -44,37 +56,123 @@ body{
     padding-top: 20px;
 }
 
-.Menu ul{
+.Contenedor ul{
     list-style: none;
-    float: right;
 }
 
-.Menu ul li {
+.Contenedor ul li {
     float: left;
+    width: auto;
+    padding-right: 10%;
 }
 
-.Menu ul li a {
-    display: block;
-    padding: 20px;
-    text-align: center;
-}
-
-.Menu ul li a:hover,
-.Menu ul li a.current {
-    background: var(--main-color);
-    color: #707070;
-}
 footer{
-    background-color: #FFE601;
+    background-color: rgb(0, 0, 0);
 }
 .inputs{
-    width: 20%;
-    height: 10%;
+    width: 35%;
+    height: 30%;
+    border-style: solid;
+    border-radius: 20px;
+    display: flexbox;
 }
 
 .formulario_titulo{
     text-align: center;
 }
 .formulario_campo{
+    text-align: center;
+}
+
+div h2{
+    color: white;
+}
+
+div h4{
+    color: white;
+}
+
+.Menu_personal{
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10rem;
+}
+
+.quiensoy{
+    background-color: rgb(238, 236, 236);
+    color: white;
+}
+
+#qs1{
+    background-color: yellow;
+    color: black;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    font-size: larger;
+
+}
+#qs2{
+    background-color: yellow ;
+    color: black;
+    width: 550px;
+    height: 200px;
+    margin-left: 75%;
+    text-align: center;
+
+}
+#qs3{
+    background-color: yellow;
+    color: black;
+    width: 550px;
+    height: 200px;
+    margin-left: 35%;
+    text-align: center;
+    justify-content: center;
+}
+
+.texto_menu{
+    font-size: larger;
+}
+
+.portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.porfolio.cajas{
+    width: 500px;
+    height: 300px;
+    display: flex;
+
+}
+
+.flex_cajas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fondo_seccion {
+    background-color: #f7f7f7;
+}
+
+.img_portfolio{
+    width: 400px;
+    height: 250px;
+}
+
+div h2{
+    text-align: center;
+    color: black;
+    font-size:xx-large
+}
+
+.texto_proyectos{
+    color: black;
     text-align: center;
 }

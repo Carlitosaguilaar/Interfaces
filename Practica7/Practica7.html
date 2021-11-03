@@ -13,77 +13,135 @@
     <nav class="Menu">
         <div class="Contenedor">
             <ul class="Cajita">
-                <li class="CajitaMenu"> INICIO </li>
+                <li class="CajitaMenu"><a href="#Footer">CONTACTO</a></li>
                 <br>
-                <li class="CajitaMenu"> CONTACTO </li>
             </ul>
-        </div>
-        
+        </div>   
         
     </nav>
 
-    <div class="Carrusel">
-        <div class="imgcarrusel">
-            <img src="javascript.jpg" alt="" class="imagenes">
-            <h4>JavaScript</h4>
+    <div class="menu">
+<br><br>
+        <nav class="menu_principal">
+            <ul>
+                <li >
+                    <a class="menu_texto" href="#qs1"> <p class="texto_menu">Sobre mi</p> </a>
+                </li>
+            
+                <li>
+                    <a class="menu_texto" href="#qs2"> <p class="texto_menu">Estudios</p> </a>
+                </li>
+                
+                <li>
+                    <a class="menu_texto" href="#qs3"> <p class="texto_menu">Proyectos</p> </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+      
+    <div class="quiensoy">
+
+        <div id="qs1">
+            <h1>Bienvenidos!</h1>
+            <p>Mi nombre es Carlos, soy estudiante para desarrollador web de la ciudad de Málaga, España. Si quieres saber más de mí, puedes contactar conmigo a través del formulario!</p>
+        </div>
+
+        <div id="qs2">
+            <p>(Estudios)</p>
 
         </div>
 
-        <div class="Java">
-            <img src="" alt="">
-            <h4>Java</h4>
-        </div>
-    
-        <div class="html">
-            <img src="" alt="">
-            <h4>HTML</h4>
-        </div>
-    </div>
-
-    
-
-
-    <div class="">
-
-        <a href="">Sobre mi</a>
-        <a href="">Competencias</a>
-        <a href="">Proyectos</a>
-        <a href="">Contacta conmigo</a>
+        <div id="qs3">
+            <p>(Proyectos personales)</p>
 
     </div>
 
-      <!-- 
-    <div>
-        <div class="cajitas">Java</div>
-        <div class="cajitas">JavaScript</div>
-        <div class="cajitas">PHP</div>
-        <div class="cajitas">Python</div>
-    </div>
+    <section id="portfolio" class="fondo_seccion">
 
-    <h4>Mis proyectos</h4>
+            <div>
+                <h2 class="section-heading"><br> Proyectos</h2>
+            </div>
 
- -->
-    <footer>
+            <div class="flex_cajas">
+                
+                <div class="portfolio_cajas">
+                    <a href="https://github.com/Carlitosaguilaar/ToPHP" target="_blank" class="link_portfolio">
+
+                        <img src="php.png" class="img_portfolio" alt="1">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h3 class="texto_proyectos">PHP</h3>
+                    </div>
+                </div>
+
+                <div class="portfolio_cajas">
+                    <a href="https://github.com/Carlitosaguilaar/JavaScript" target="_blank" class="link_portfolio">
+                        <img src="javascript.jpg" class="img_portfolio" alt="2">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h3 class="texto_proyectos">JavaScript</h3>
+                    </div>
+                </div>
+
+                <div class="portfolio_cajas">
+                    <a href="https://github.com/Carlitosaguilaar/ProyectoServidoresT1" target="_blank" class="link_portfolio">
+                        <img src="html.jpg" class="img_portfolio" alt="3">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h3 class="texto_proyectos">Pagina web HTML + PHP</h3>
+                    </div>
+                </div>        
+            </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="Footer">
 
         <div class="formulario_contacto">
             <form action="" class="formulario_contacto" >
                 <h2 class="formulario_titulo">¿Quiere ponerse en contacto?</h2>
                 <h4 class="formulario_titulo">Rellene el formulario y le responderé a la mayor brevedad</h4>
                 <div class="formulario_campo">
-                    <p>Nombre <input type="text" name="nombre" class="inputs" placeholder="Nombre" autocomplete="off"></p>
+                    <input type="text" name="nombre" class="inputs" placeholder="Nombre" autocomplete="off">
                      
                 </div>
 
                 <div class="formulario_campo">
-                     <p>E-mail <input type="email" name="correo" class="inputs" placeholder="E-mail" autocomplete="off"></p> 
+                    <br>
+                     <input type="email" name="correo" class="inputs" placeholder=" E-mail" autocomplete="off"> 
                 </div>
 
                 <div class="formulario_campo">
-                    <p>Asunto <input type="text" name="asunto" class="inputs" placeholder="Asunto" autocomplete="off"></p>   
+                    <br>
+                    <input type="text" name="asunto" class="inputs" placeholder=" Asunto" autocomplete="off"> 
                 </div>
 
                 <div class="formulario_campo">
-                    <p>Mensaje  <textarea name="texto" placeholder="Introduce el mensaje" autocomplete="off" cols="50" rows="5"></textarea></p>
+                    <br>
+                    <textarea name="texto" class="inputs" placeholder=" Introduce el mensaje" autocomplete="off" cols="50" filas="5"></textarea>
                 </div>
 
                 <div class="formulario_campo">
