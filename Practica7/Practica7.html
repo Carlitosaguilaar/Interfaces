@@ -6,117 +6,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Practica7.css">
     <title>Portfolio Carlos Andrés Aguilar Asensio</title>
-
 </head>
 <body>
 
     <nav class="Menu">
-        <div class="Contenedor">
-            <ul class="Cajita">
-                <li class="CajitaMenu"><a href="#Footer">CONTACTO</a></li>
-                <br>
-            </ul>
-        </div>   
-        
+        <ul class="flex_menu">
+            <a class="menu_texto" href="#Footer">Contacto</a>
+            <a class="menu_texto" href="#qs1">Sobre mi </a>            
+            <a class="menu_texto" href="#qs2">Estudios</a>
+            <a class="menu_texto" href="#proyects">Proyectos</a>
+        </ul>  
     </nav>
-
-    <div class="menu">
-<br><br>
-        <nav class="menu_principal">
-            <ul>
-                <li >
-                    <a class="menu_texto" href="#qs1"> <p class="texto_menu">Sobre mi</p> </a>
-                </li>
-            
-                <li>
-                    <a class="menu_texto" href="#qs2"> <p class="texto_menu">Estudios</p> </a>
-                </li>
-                
-                <li>
-                    <a class="menu_texto" href="#qs3"> <p class="texto_menu">Proyectos</p> </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
       
-    <div class="quiensoy">
+    <!-- Sección introducción -->
 
+    <section id ="portfolio" class="flex_cajas_3">
         <div id="qs1">
             <h1>Bienvenidos!</h1>
-            <p>Mi nombre es Carlos, soy estudiante para desarrollador web de la ciudad de Málaga, España. Si quieres saber más de mí, puedes contactar conmigo a través del formulario!</p>
+            <p class="texto_proyectos_3"> Mi nombre es Carlos, soy un estudiante de Málaga, España, de desarrollo web!</p>
         </div>
 
         <div id="qs2">
-            <p>(Estudios)</p>
+            <p class="texto_proyectos_3">(Estudios)</p>
 
         </div>
 
         <div id="qs3">
-            <p>(Proyectos personales)</p>
+            <p class="texto_proyectos_3">(Proyectos personales)</p>
+        </div>
+    </section>
 
-    </div>
+    <!-- Sección proyectos -->
 
     <section id="portfolio" class="fondo_seccion">
 
-            <div>
+            <div id="proyects">
                 <h2 class="section-heading"><br> Proyectos</h2>
             </div>
 
             <div class="flex_cajas">
                 
-                <div class="portfolio_cajas">
+                <div>
                     <a href="https://github.com/Carlitosaguilaar/ToPHP" target="_blank" class="link_portfolio">
 
                         <img src="php.png" class="img_portfolio" alt="1">
                     </a>
-                    <div class="portfolio-caption">
+                    <div>
                         <h3 class="texto_proyectos">PHP</h3>
                     </div>
                 </div>
 
-                <div class="portfolio_cajas">
+                <div>
                     <a href="https://github.com/Carlitosaguilaar/JavaScript" target="_blank" class="link_portfolio">
                         <img src="javascript.jpg" class="img_portfolio" alt="2">
                     </a>
-                    <div class="portfolio-caption">
+                    <div>
                         <h3 class="texto_proyectos">JavaScript</h3>
                     </div>
                 </div>
 
-                <div class="portfolio_cajas">
+                <div>
                     <a href="https://github.com/Carlitosaguilaar/ProyectoServidoresT1" target="_blank" class="link_portfolio">
                         <img src="html.jpg" class="img_portfolio" alt="3">
                     </a>
-                    <div class="portfolio-caption">
+                    <div>
                         <h3 class="texto_proyectos">Pagina web HTML + PHP</h3>
                     </div>
-                </div>        
+                </div>     
+            </div>
+
+            <!-- Segunda fila parte proyectos -->
+
+            <div class="flex_cajas_2">
+                <div>
+                    <a href="#" class="link_portfolio">
+                        <img src="construction.jpg" class="img_portfolio" alt="3">
+                    </a>
+                    <div>
+                        <h3 class="texto_proyectos">Proximamente . . .</h3>
+                    </div>
+                </div> 
+
+                <div>
+                    <a href="#" class="link_portfolio">
+                        <img src="construction.jpg" class="img_portfolio" alt="3">
+                    </a>
+                    <div>
+                        <h3 class="texto_proyectos">Proximamente . . .</h3>
+                    </div>
+                </div> 
+
+                <div>
+                    <a href="#" class="link_portfolio">
+                        <img src="construction.jpg" class="img_portfolio" alt="3">
+                    </a>
+                    <div>
+                        <h3 class="texto_proyectos">Proximamente . . .</h3>
+                    </div>
+                </div> 
             </div>
 
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Footer -->
 
     <footer id="Footer">
 
@@ -141,16 +133,15 @@
 
                 <div class="formulario_campo">
                     <br>
-                    <textarea name="texto" class="inputs" placeholder=" Introduce el mensaje" autocomplete="off" cols="50" filas="5"></textarea>
+                    <textarea name="texto" class="inputs" placeholder=" Introduce el mensaje" autocomplete="off" cols="5" filas="10"></textarea>
                 </div>
 
                 <div class="formulario_campo">
                     <input type="button" value="Enviar">
                 </div>
         </div>
-
     </footer>
 
-    
+
 </body>
 </html>
