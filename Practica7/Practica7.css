@@ -110,7 +110,7 @@ div h4{
     font-size: x-large;
     padding-top: 10%;
     width: 500px;
-    padding-left: 37%;
+    padding-left: 35%;
     text-align: center;
     
 }
@@ -135,11 +135,13 @@ div h4{
     display: -webkit-flex;
     justify-content: space-evenly;
     font-size: x-large; 
-    padding-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .flex_cajas_3{
     justify-content: space-evenly;
+    width: auto;
 }
 
 .fondo_seccion {
