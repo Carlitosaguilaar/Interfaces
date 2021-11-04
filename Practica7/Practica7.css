@@ -1,14 +1,11 @@
+:root{
+    --principal: 'Roboto', sans-serif;
+}
 body{
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ffffff;
+    font-family: var(--principal);
 }
 
-.Proyectos{
-    background-color: #BFBFBF;
-    height: 3200px;
-    width: 100%
-}
 .Proyectos div{
     justify-content: space-evenly;
     padding-left: 5%;
@@ -18,61 +15,18 @@ body{
     width: 300px;
 }
 
-.cajitas {
-    float: left;
-    width: 33.3%;
-    padding: 10px;
-}
-
 .Menu {
-    width: 100%;
+    width: auto;
+    height: 900px;
+    background: #404040;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #404040, #bfbfbf);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #404040, #bfbfbf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.menu{
-    padding-top: 5%;
-    background-color: #BFBFBF;
-}
-.menu_principal{
-    width: auto;
-    justify-content: space-evenly;
-}
 .menu_texto{
-    color: black;
+    font-style: italic;
+    color: white;
     font-size: larger;
-    text-decoration: none;
-}
-
-.Contenedor {
-    padding:20px;
-    margin-left: 75%;
-}
-
-.CajitaMenu{
-    width: 10%;
-    height: 10%;
-    text-align: center;
-    display: flex;
-    margin-right: 10%;
-    color: #BFBFBF;
-    
-    }
-    
-.Menu .logo{
-    float: left;
-    padding-top: 20px;
-}
-
-.Contenedor ul{
-    list-style: none;
-}
-
-.Contenedor ul li {
-    float: left;
-    width: auto;
-    padding-right: 10%;
-}
-.Contenedor ul li a{
-    color: #BFBFBF;
     text-decoration: none;
 }
 
@@ -80,16 +34,25 @@ footer{
     background-color: rgb(0, 0, 0);
     justify-content: center;
     width: auto;
-    height: 750px;
+    height: 900px;
     font-size: x-large;
+    margin-top: 1%;
+    opacity: 0.8;
 }
+
 .inputs{
     width: 35%;
     height: 30%;
-    border-style: solid;
     border-radius: 10px;
     display: flexbox;
     font-size: x-large;
+    background-color: transparent;
+    box-shadow: 0 0 4px #F48401;
+    border: none;
+    padding: 1rem;
+    resize: none;
+    color: white;
+    outline: none;
 }
 
 .formulario_titulo{
@@ -99,7 +62,7 @@ footer{
 }
 .formulario_campo{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 div h2{
@@ -124,32 +87,32 @@ div h4{
 }
 
 #qs1{
-    color: #BFBFBF;
     width: auto;
-    height: 750px;
+    height: 900px;
     display: block;
     text-align: center;
+    background-color: #404040;
+    background: -webkit-linear-gradient(to right, #404040, black);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #404040, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #qs2{
-    color: #BFBFBF;
     width: auto;
-    height: 750px;
+    height: 900px;
     display: block;
     text-align: center;
-}
+    background-color: #BFBFBF;
 
-#qs3{
-    color: #BFBFBF;
-    width: auto;
-    height: 750px;
-    display: block;
-    text-align: center;
 }
 
 .texto_proyectos_3{
-    color: #BFBFBF;
-    font-size: larger;
+    color: #F48401;
+    font-size: x-large;
+    padding-top: 10%;
+    width: 500px;
+    padding-left: 37%;
+    text-align: center;
+    
 }
 
 .porfolio_cajas{
@@ -166,27 +129,29 @@ div h4{
 .flex_cajas_2{
     display: -webkit-flex;
     justify-content: space-evenly;
+    padding-top: 3%;
 }
 .flex_menu{
     display: -webkit-flex;
     justify-content: space-evenly;
+    font-size: x-large; 
+    padding-top: 3%;
 }
 
 .flex_cajas_3{
-    
     justify-content: space-evenly;
 }
 
 .fondo_seccion {
-    background-color: #f7f7f7;
-    padding-top: 1%;
-    height: 750px;
+    background-color: black;
+    margin-top: 1%;
+    height: 900px;
     padding-bottom: 2%;
 }
 
 .img_portfolio{
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    height: 300px;
 }
 
 div h2{
@@ -196,11 +161,38 @@ div h2{
 }
 
 .texto_proyectos{
-    color: black;
+    color: #F48401;
     text-align: center;
 }
 
 .flex{
     display: flex;
     justify-content: space-evenly;
+}
+
+.div_menu{
+    padding-top: 12%;    
+}
+
+.curriculum{
+    width: auto;
+    height: 800px;
+    padding-top: 1%;
+}
+
+#titulo_seccion{
+    padding-top: 0.5%;
+    text-align: center;
+    padding-bottom: 2%;
+    color: #F48401;
+}
+
+#titulo_bm{
+    padding-top: 5%;
+    color: #F48401;
+    font-size: x-large;
+}
+
+.ul_flex{
+    padding-bottom: 5%;
 }

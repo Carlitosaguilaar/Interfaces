@@ -1,76 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Practica7.css">
-    <title>Portfolio Carlos Andrés Aguilar Asensio</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Practica7.css">
+        <title>Portfolio Carlos Andrés Aguilar Asensio</title>
+    </head>
+    <body>
+        
+        <nav class="Menu">
 
-    <nav class="Menu">
-        <ul class="flex_menu">
-            <a class="menu_texto" href="#Footer">Contacto</a>
-            <a class="menu_texto" href="#qs1">Sobre mi </a>            
-            <a class="menu_texto" href="#qs2">Estudios</a>
-            <a class="menu_texto" href="#proyects">Proyectos</a>
-        </ul>  
+            <ul class="ul_flex">   
+                <li class="flex_menu">
+                    <h1 class="menu_texto"> <b>Bienvenidos!</b></h1>
+                </li>
+
+            </ul>
+
+            <ul class="ul_flex">
+
+                <li class="flex_menu">
+                    <a class="menu_texto" href="#qs1"><b>Sobre mi</b></a>
+                </li>
+                
+                <li class="flex_menu">
+                    <a class="menu_texto" href="#qs2"><b>Currículum</b></a>
+                </li>       
+                
+                <li class="flex_menu">    
+                    <a class="menu_texto" href="#proyects"><b>Proyectos</b></a>
+                </li>
+                
+                <li class="flex_menu">
+                    <a class="menu_texto" href="#Footer"><b>Contacto</b></a>
+                </li>
+            </ul>
+          
     </nav>
       
     <!-- Sección introducción -->
 
     <section id ="portfolio" class="flex_cajas_3">
         <div id="qs1">
-            <h1>Bienvenidos!</h1>
-            <p class="texto_proyectos_3"> Mi nombre es Carlos, soy un estudiante de Málaga, España, de desarrollo web!</p>
+            <h2 id="titulo_bm" >Sobre mi</h2>
+                <p class="texto_proyectos_3"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem veritatis non ipsum vitae hic tenetur, deserunt porro dolor corrupti sit, nihil ipsam voluptas. Nam quod harum modi inventore, consectetur non? <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi maiores culpa iusto quos porro reprehenderit adipisci odio eos reiciendis ducimus. Molestiae ullam excepturi magni dolorem dolore odio consectetur, voluptatibus minus.
+                </p>            
+            
         </div>
-
+        <br>
         <div id="qs2">
-            <p class="texto_proyectos_3">(Estudios)</p>
+            <h2>Curriculum</h2>
 
+            <img src="curriculum.png" alt="curriculum" class="curriculum">
+            <br>
         </div>
+        
 
-        <div id="qs3">
-            <p class="texto_proyectos_3">(Proyectos personales)</p>
-        </div>
     </section>
 
     <!-- Sección proyectos -->
 
-    <section id="portfolio" class="fondo_seccion">
+    <section id="proyects" class="fondo_seccion">
 
-            <div id="proyects">
-                <h2 class="section-heading"><br> Proyectos</h2>
+            <div>
+                <h2 id="titulo_seccion">Proyectos</h2>
             </div>
 
             <div class="flex_cajas">
                 
                 <div>
-                    <a href="https://github.com/Carlitosaguilaar/ToPHP" target="_blank" class="link_portfolio">
+                    <a href="https://github.com/Carlitosaguilaar/ToPHP" target="_blank">
 
                         <img src="php.png" class="img_portfolio" alt="1">
                     </a>
                     <div>
-                        <h3 class="texto_proyectos">PHP</h3>
+                        <h4 class="texto_proyectos">PHP</h4>
                     </div>
                 </div>
 
                 <div>
-                    <a href="https://github.com/Carlitosaguilaar/JavaScript" target="_blank" class="link_portfolio">
+                    <a href="https://github.com/Carlitosaguilaar/JavaScript" target="_blank">
                         <img src="javascript.jpg" class="img_portfolio" alt="2">
                     </a>
                     <div>
-                        <h3 class="texto_proyectos">JavaScript</h3>
+                        <h4 class="texto_proyectos">JavaScript</h4>
                     </div>
                 </div>
 
                 <div>
-                    <a href="https://github.com/Carlitosaguilaar/ProyectoServidoresT1" target="_blank" class="link_portfolio">
+                    <a href="https://github.com/Carlitosaguilaar/ProyectoServidoresT1" target="_blank">
                         <img src="html.jpg" class="img_portfolio" alt="3">
                     </a>
                     <div>
-                        <h3 class="texto_proyectos">Pagina web HTML + PHP</h3>
+                        <h4 class="texto_proyectos">Pagina web HTML + PHP</h4>
                     </div>
                 </div>     
             </div>
@@ -79,41 +106,39 @@
 
             <div class="flex_cajas_2">
                 <div>
-                    <a href="#" class="link_portfolio">
+                    <a href="#">
                         <img src="construction.jpg" class="img_portfolio" alt="3">
                     </a>
                     <div>
-                        <h3 class="texto_proyectos">Proximamente . . .</h3>
+                        <h4 class="texto_proyectos">Proximamente . . .</h4>
                     </div>
                 </div> 
 
                 <div>
-                    <a href="#" class="link_portfolio">
+                    <a href="#">
                         <img src="construction.jpg" class="img_portfolio" alt="3">
                     </a>
                     <div>
-                        <h3 class="texto_proyectos">Proximamente . . .</h3>
+                        <h4 class="texto_proyectos">Proximamente . . .</h4>
                     </div>
                 </div> 
 
                 <div>
-                    <a href="#" class="link_portfolio">
+                    <a href="#">
                         <img src="construction.jpg" class="img_portfolio" alt="3">
                     </a>
                     <div>
-                        <h3 class="texto_proyectos">Proximamente . . .</h3>
+                        <h4 class="texto_proyectos">Proximamente . . .</h4>
                     </div>
                 </div> 
             </div>
-
     </section>
 
     <!-- Footer -->
 
     <footer id="Footer">
-
-        <div class="formulario_contacto">
-            <form action="" class="formulario_contacto" >
+        <div>
+            <form action="">
                 <h2 class="formulario_titulo">¿Quiere ponerse en contacto?</h2>
                 <h4 class="formulario_titulo">Rellene el formulario y le responderé a la mayor brevedad</h4>
                 <div class="formulario_campo">
@@ -128,20 +153,14 @@
 
                 <div class="formulario_campo">
                     <br>
-                    <input type="text" name="asunto" class="inputs" placeholder=" Asunto" autocomplete="off"> 
+                    <textarea name="texto"  class="inputs" placeholder=" Introduce el mensaje" autocomplete="off" cols="10" filas="20"></textarea>
                 </div>
-
+                <br>
                 <div class="formulario_campo">
-                    <br>
-                    <textarea name="texto" class="inputs" placeholder=" Introduce el mensaje" autocomplete="off" cols="5" filas="10"></textarea>
-                </div>
-
-                <div class="formulario_campo">
-                    <input type="button" value="Enviar">
+                    <input type="button" class="inputs" value="Enviar">
                 </div>
         </div>
     </footer>
-
 
 </body>
 </html>
