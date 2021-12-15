@@ -133,7 +133,7 @@ div h4{
 }
 .flex_menu{
     display: -webkit-flex;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: x-large; 
     padding-top: 5%;
     padding-bottom: 2%;
@@ -197,4 +197,12 @@ div h2{
 
 .ul_flex{
     padding-bottom: 5%;
+}
+
+.giflogo{
+    width: 5.5rem;
+    height: 7rem;
+    padding-right: 20rem;
+    position: absolute;
+    
 }
