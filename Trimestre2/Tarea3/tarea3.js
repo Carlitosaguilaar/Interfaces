@@ -1,13 +1,11 @@
-function cambioshow() {
+function cambiodisplay() {
 
-    var dedo = document.getElementsByClassName("Cajaflotante");
-    dedo.style.display = "block";
+    var dedo = document.querySelector("section");
 
-    if (dedo.style.display == "block") {
-        dedo.style.display = "none"
+    if (dedo.style.display == "none") {
+        dedo.style.display = "block"
     }
     else{
         dedo.style.display = "none"
     }
-    
 }
