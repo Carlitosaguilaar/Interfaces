@@ -2,10 +2,15 @@ function cambiodisplay() {
 
     var dedo = document.querySelector("section");
 
-    if (dedo.style.display == "none") {
-        dedo.style.display = "block"
+    var dedo2 = document.getElementById("Cajabase")
+
+    if (dedo.style.display == "none" && dedo2.style.display == "block") {
+        dedo.style.display = "block";
+        dedo2.style.display = "none";
     }
-    else{
-        dedo.style.display = "none"
+
+    if (dedo.style.display == "block" || dedo2.style.display == "none") {
+        dedo.style.display = "none";
+        dedo2.style.display = "block";
     }
 }
