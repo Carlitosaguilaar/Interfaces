@@ -1,16 +1,25 @@
 body{
     margin: 0;
-    background-image: url('llamada.jpg');
+    background-image: url('Capa0.png');
+    
 }
 
 #titulo{
     color: #03318C;
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    padding-top: 1%;
+    padding-top: 0.5%;
     padding-bottom: 1%;
-    padding-left: 65%;
-    
+    padding-left: 55%;  
+}
+
+#nombre{
+    position: absolute;
+    top: 2%;
+    font-size: 1.3rem;
+    margin-left: 5%;
+    color: #03318C;
+    text-transform: uppercase;
 }
 
 .boton{
@@ -70,3 +79,9 @@ body{
 #Cajaflontante{
     display: none;
 }
+
+img{
+    height: 5%;
+    width: 7%;
+}
+
