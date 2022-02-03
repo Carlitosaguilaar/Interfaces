@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+table{
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);
+    background: linear-gradient(to left, #2c3e50, #bdc3c7);
+
+    padding: 2%;
+    border: 2px solid black;
+    margin-top: 7%;
+    margin-left: 39%;
+    font-size: larger;
+    color: white;
+    border-radius: 25px;
+    border-top: white;
+    border-left: white;
+}
+
+.titulo{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.campo{
+    font-size: 1.1rem;
+    width: 105%;
+}
+.letras{
+    font-size: 1.2rem;
+}
+
+    
+.btn-grad {
+    background: transparent;
+    height: 20%;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 55%;
+    padding: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eeeeee;
+    border-radius: 10px;
+    display: block;
+    border-right: black;
+    border: white;
+    font-size: 1.1rem;
+    }
+
+    .btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    }
